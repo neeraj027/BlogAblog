@@ -1,0 +1,408 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+}
+
+/* header css START */
+
+nav{
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: #070F2B;
+}   
+
+.logo{
+    width: 15%;
+    color: #9290C3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.inner-logo-1{
+    width: 100%;
+    font-weight: 800;
+    text-align: center;
+    font-size: large;
+}
+
+.inner-logo-2{
+    width: 100%;
+    position: relative;
+    top: -2px;
+    text-decoration: underline ;
+    text-underline-offset: 5px;
+}
+
+.nav-container{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn{
+    width: 100px;
+    color: #9290C3;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.nav-btn:hover{
+    color: #1B1A55;
+    background-color: #9290C3;
+}
+
+.login{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn{
+    width: 100px;
+    background-color: #1B1A55;
+    color: #9290C3;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.login-btn:hover{
+    background-color: #9290C3  ;
+    color: #1B1A55;
+    
+}
+
+/* header css END */
+
+
+main{
+    background-color: #9290C3;
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+}
+
+
+/* card css START */
+
+.masterContainer{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 33%;
+    height: max-content;
+    background-color: #1B1A55;
+    color: #ffffff;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.container:hover{
+    transform: scale(1.01);
+}
+
+.blogTitle{
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.author{
+    font-size: small;
+    position: relative;
+    top: -8px;
+    color: #9290C3;
+}
+
+/* card css END */
+
+
+/* footer css START */
+
+.content{
+    position: relative;
+    top: -8px;
+    text-align: justify;
+}
+
+.footer-container{
+    width: 100%;
+    height: min-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #070F2B;
+    color: #9290C3;
+}
+
+.social{
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: solid #9290C3 2px;
+}
+
+.footer-content{
+    padding: 10px;
+    width: 50%;
+    align-self: center;
+    text-align: center;
+}
+
+.social-link{
+    text-decoration: none;
+    color: #9290C3;
+}
+
+.social-link:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    background-color: #9290C3;
+}
+/* footer css END */
+
+/* home css START */
+.mainPage{
+    width: 100%;
+    height: auto;
+    font-size: 60px;
+}
+
+.mainQuote{
+    font-size: 80px;
+}
+/* home css END */
+
+/* About css START */
+
+.aboutPage{
+    width: 100%;
+    height: auto;
+    color: #070F2B;
+}
+
+.madeBy{
+    font-size: 30px;
+}
+
+.name{
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.degree{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.techStack{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.techStack span{
+    display: block;
+}
+/* About css END */
+
+
+/* contact css START */
+.contactPage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    color: #070F2B;
+}
+
+.info{
+    padding: 10px;
+    height: auto;
+    width: 50%;
+
+}
+
+.contactName{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.social-btn a{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #070F2B;
+}
+
+.social-btn a:hover{
+    text-decoration: underline;
+}
+
+.more{
+    padding: 10px;
+    width: 50%;
+}
+
+.more span{
+    font-size: 40px;
+    font-weight: 700;
+}
+/* contact css END */
+
+/* addpost css START */
+
+.addPost-container{
+    width: 100%;
+    height: 500px;
+    border: solid #1B1A55 5px;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: #1B1A55;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+form div{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.addPost-title{
+    background-color: #9290C3;
+    color: #070F2B;
+    border:none;
+    border-radius: 50px;
+    width: 50%;
+    height: min-content;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: none;
+
+}
+
+.addPost-title::placeholder{
+    color: #1b1a55a3;
+}
+
+.addPost-author{
+    background-color: #9290C3;
+    color: #070F2B;
+    border:none;
+    border-radius: 50px;
+    width: 25%;
+    height: min-content;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: none;
+}
+
+.addPost-author::placeholder{
+    color: #1b1a55a3;
+}
+
+.blog-submit{
+    width: 25%;
+    background-color: #9290C3;
+    border:none;
+    border-radius: 50px;
+    height: min-content;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #1b1a55a3;
+}
+
+.blog-submit:hover{
+    color: #9290C3;
+    background-color: #070F2B;
+}
+
+.addPost-textarea{
+    height: 80%;
+    width: 100%;
+    color: #070F2B;
+    background-color: #9290C3;
+    border:none;
+    border-radius: 25px 25px 35px 35px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    resize: none;
+    outline: none;
+    overflow: auto;
+}
+
+.addPost-textarea::placeholder{
+    color: #1b1a55a3;
+    align-self: center;
+    font-size: 20px;
+}

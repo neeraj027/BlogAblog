@@ -1,0 +1,14 @@
+<%- include('templates/header') %>
+<main>
+    <div class="masterContainer">
+        <% locals.wholeBlog %>
+        <% for( let i = 0; i < wholeBlog.length; i++ ) { %>
+            <div id="<%= wholeBlog[i].id %>" class="container">
+                <div class="blogTitle"><%= wholeBlog[i].blog_title %></div>
+                <div class="author"><%= wholeBlog[i].blog_author %></div>
+                <div class="content"><%= wholeBlog[i].blog_content %></div>
+            </div>
+        <% } %>
+    </div>
+</main>
+<%- include('templates/footer') %>

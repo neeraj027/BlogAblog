@@ -1,0 +1,21 @@
+<%- include('templates/header') %>
+    <main>
+        <div class="addPost-container">
+            <form action="/blogs" method="post">
+                <div>
+                    <label for="addPost-title" hidden>Blog Title</label>
+
+                    <input autocomplete="off" type="text" name="addPost-title" class="addPost-title" placeholder="Blog Title">
+
+                    <label for="addPost-author" hidden>Blog Author</label>
+
+                    <input autocomplete="off" type="text" name="addPost-author" class="addPost-author" placeholder="Author Name">
+
+                    <button class="blog-submit" type="submit">Add Blog</button>
+                </div>
+
+                <textarea autocomplete="off" class="addPost-textarea" placeholder="Be Creative Here" name="addPost-content"></textarea>
+            </form>
+        </div>
+    </main>
+    <%- include('templates/footer') %>
